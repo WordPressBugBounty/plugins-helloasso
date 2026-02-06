@@ -574,7 +574,7 @@ a:focus {
     margin: 0;
     color: #2E2F5E;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 @media (max-width: 575px) {
@@ -1505,5 +1505,18 @@ a:focus {
 }
 
 #hello_asso_metabox {
-visibility: hidden;
+    visibility: hidden;
+}
+
+.ha-container-dashboard .ha-checkbox{
+    width: 1rem;
+    margin:0;    
+    padding: 0;
+}
+.ha-form-group{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    justify-content:flex-start;
+    margin: 0 0 15px;
 }
